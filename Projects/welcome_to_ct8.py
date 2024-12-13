@@ -8,7 +8,7 @@ stage = StageClass()
 
 stage.set_background("fall")
 mySprite = codesters.Sprite("cardinal")
-mySprite.say("Good job finding me!")
+mySprite.say("pepe bean!")
 
 
 print("Welcome to CT8!")
