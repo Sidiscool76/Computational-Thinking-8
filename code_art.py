@@ -1,11 +1,11 @@
-
+# Section 1 - Speed
 import turtle
 import random
 # Speed
 t = turtle.Turtle()
 t.speed(10)
 
-# Random triangles
+# Section 2 - colors and angles
 colors = ["red", "black", "blue", "green", "yellow", "purple"]  
 angles = [0, 60, 120, 180, 240, 300] 
 # Movement

@@ -19,8 +19,11 @@ def falling_object():
     if lives > 0:
         x = random.randint(-200, 200)
         y = 200
+        
         object = codesters.Sprite("ball", x, y)
+        
         object.set_size(1)
+       
         object.set_y_speed(object_speed)
        
 stage.event_interval(falling_object, 3)
@@ -31,6 +34,7 @@ def collision(player, object):
     global lives
 
     if object.get_image_name() == "ball":
+        
         stage.remove_sprite(object)
         lives -= 1
         if lives == 0:
